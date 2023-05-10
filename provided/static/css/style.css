@@ -31,15 +31,32 @@ a {
 header .jumbotron {
   height: 70vh;
   margin-bottom: 0;
-  background: url(../images/misc/Hacking_Cybersecurity.jpg) no-repeat 90% 5%;
+  background: url(../images/misc/cyborg-hand-3d-background-technology-artificial-intelligence.jpg)
+    no-repeat 90% 5%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 header .navbar-brand {
   font-size: 1.2em;
+}
+.headerOfMain {
+  color: aqua;
+  font-size: 5em;
+  font-family: monospace;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%);
 }
 
 .maincontent {
